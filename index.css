@@ -106,7 +106,7 @@ section.hero-appa span h3{
     font-weight: 600;
 }
 
-section.hero-appa span p{
+section.hero-appa span p {
     width: 450px;
     font-size: 14px;
     font-weight: 600;
@@ -127,7 +127,7 @@ section.hero-appa span p{
     position: absolute;
     width: 590px;
     height: 800px;
-    margin-left: 30px;
+    margin-left: 80px;
     margin-top: 20px;
     /* border:  solid 2px black; */
     border-radius: 40px;
@@ -167,10 +167,10 @@ section.hero-appa span p{
     font-weight: 600;
     margin-left: 94px;
     margin-bottom: 7px;
+    font-family: Lato;
 }
 
 .form-sub-container form input[type="text"],
-.form-sub-container form input[type="number"],
 .form-sub-container form input[type="email"] 
 {
     /* margin-top: -10px; */
@@ -178,14 +178,18 @@ section.hero-appa span p{
     height: 39px;
     outline: none;
     padding-left: 20px;
+    font-family: Lato;
+}
+
+.form-sub-container form input[type="text"]#city {
+    /* background-image: url(./images/place.png.png); */
+    background-repeat: no-repeat;
+    /* text-indent: 20px; */
 }
 
 .form-sub-container form input[type="checkbox"] {
     margin-left: 30px;
-}
-
-.form-sub-container form input[type="checkbox"] a {
-    text-decoration: none;
+    font-family: Lato;
 }
 
 .form-sub-container form p {
@@ -227,3 +231,7 @@ section.hero-appa span p{
     color: #ef7822;
     text-decoration: underline;
 }
+
+/* .burger {
+    background-image: url(./images/Burger.png);
+} */
