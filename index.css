@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    /* background-color: black;  */
+  }
+
+ body {
+    font-family: "Lato";
+}
+
+/* Header Section */ 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 5px grey;
+    z-index: 1000;
+    height: 40px; 
+}
+
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+#navHeading {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header-div button {
+    width: 190px;
+    height: 30px;
+    background-color: #ef7822;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.logo {
+    width: 120px;
+}
+
+#contentContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    background-color: #ffff;
+    box-shadow: 1px 2px 2px grey;
+    position: absolute;
+    padding: 2rem 1rem; 
+    z-index: 3;
+    margin-top: 20px;
+    margin-left: -30rem;
+    width: fit-content;
+    /* border-radius: 10px; */
+    width: 700px;
+    visibility: hidden;
+}
+
+#contentContainer div img {
+    width: 80px;
+    height: 60px;
+}  
+
+/* Hero Section*/
+
+.hero-appa {
+    position: relative;
+    display: flex; 
+    justify-content: space-between;
+    background-color: #FFFAF5;
+    gap: 40px;
+    padding: 50px 30px;
+    z-index: 1;
+}
+
+.hero-logo {
+    width: 570px;
+    height: 390px;
+    left: 1121px;
+    margin-right: 29px;
+}
+
+section.hero-appa span {
+    display: inline-block;
+    width: 532px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+section.hero-appa span h3{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+section.hero-appa span p{
+    width: 450px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.curved-img {
+    position: relative;
+    margin-top: -15rem;
+    margin-bottom: -9rem;
+    background-image: url("./images/Vector\ 12.svg");
+    height: 500px;
+    width: auto;
+}
+
+/* Form Section */
+
+.form-container {
+    position: absolute;
+    width: 590px;
+    height: 800px;
+    margin-left: 30px;
+    margin-top: 20px;
+    /* border:  solid 2px black; */
+    border-radius: 40px;
+    box-shadow: 1px 3px 5px grey;
+    background-color: #ffff;
+    top: 600px;
+    z-index: 1;
+}
+
+.form-sub-container {
+    /* display: flex; */
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+.form-sub-container .form-heading h3 {
+    color: #ef7822;
+    text-align: center;
+}
+
+.form-sub-container .form-heading p {
+    text-align: center;
+    font-size: smaller;
+}
+
+.form-sub-container form {
+    text-align: center;
+}
+
+.form-sub-container form div {
+    margin-bottom: 10px;
+}
+
+.form-sub-container form label {
+    display: flex;
+    text-align: left;
+    font-weight: 600;
+    margin-left: 94px;
+    margin-bottom: 7px;
+}
+
+.form-sub-container form input[type="text"],
+.form-sub-container form input[type="number"],
+.form-sub-container form input[type="email"] 
+{
+    /* margin-top: -10px; */
+    width: 500px;
+    height: 39px;
+    outline: none;
+    padding-left: 20px;
+}
+
+.form-sub-container form input[type="checkbox"] {
+    margin-left: 30px;
+}
+
+.form-sub-container form input[type="checkbox"] a {
+    text-decoration: none;
+}
+
+.form-sub-container form p {
+    text-align: left;
+    margin-left: 60px;
+    font-size: smaller;
+}
+
+.form-sub-container form button {
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 54px;
+    background-color: #ef7822;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.form-footer {
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 290px;
+}
+
+.form-footer p:nth-child(1) ,
+.form-footer p:nth-child(2)
+ {
+    text-align: center;
+    margin-left: 68px;
+}
+
+.form-footer p:nth-child(2) {
+    margin-top: -8px;
+}
+
+.form-footer p a {
+    color: #ef7822;
+    text-decoration: underline;
+}
