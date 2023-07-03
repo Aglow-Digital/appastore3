@@ -232,6 +232,9 @@ section.hero-appa span p {
     text-decoration: underline;
 }
 
-/* .burger {
-    background-image: url(./images/Burger.png);
-} */
+.burger {
+    position: relative;
+    width: 1348px;
+    opacity: 4.0;
+    z-index: -1;
+}
