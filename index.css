@@ -127,7 +127,7 @@ section.hero-appa span p {
     position: absolute;
     width: 590px;
     height: 800px;
-    margin-left: 80px;
+    margin-left: 30px;
     margin-top: 20px;
     /* border:  solid 2px black; */
     border-radius: 40px;
@@ -270,14 +270,16 @@ section.hero-appa span p {
 section.How-to-reg {
     background-color: #FFFAF5;
     margin-top: -99px;
+    padding-bottom: 60px;
 }
 
 .How-to-reg h3 {
-    padding-top: 70px;
-    padding-bottom: 50px;
+    padding-top: 90px;
+    padding-bottom: 40px;
     text-align: center;
+    font-size: 50px;
     font-family: "Lato";
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .grid-container {
@@ -291,7 +293,7 @@ section.How-to-reg {
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     /* border: 1px solid rgba(0, 0, 0, 0.8); */
-    box-shadow: 1px 1px 5px grey;
+    box-shadow: 15px 15px 10px rgba(221, 216, 216, 0.61);
     border-radius: 20px;
     padding: 20px;
     font-size: 12px;
@@ -302,3 +304,74 @@ section.How-to-reg {
 .grid-item img {
     width: 40px;
 }
+
+.How-to-reg button {
+    text-align: center;
+    margin: 40px 0 0 569px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 54px;
+    background-color: #ef7822;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.under-picture {
+    background-image: url(./images/Vector\ 12\ \(3\).jpg);
+    margin-top: 70px;
+}
+
+/*Got any question*/
+
+section.forth-section {
+    background-color: #ffff;
+}
+
+.got-any-question {
+    margin-top: 95px;
+    width: 494px;
+    margin-left: 30px;
+}
+
+.got-any-question h2 {
+    font-weight: bold;
+}
+
+.got-any-question p {
+    text-align: justify;
+}
+
+.forth-section .how-it-work {
+    position: relative;
+    width: 500px;
+    top: -350px;
+    left: 590px;
+}
+
+.forth-section .how-it-work div {
+    background-color: #ffff;
+    box-shadow: 1px 15px 10px rgba(221, 216, 216, 0.61);
+    border-radius: 10px;
+    width: 730px;
+    height: 70px;
+    margin-bottom: 10px;
+    padding: 3px 20px;
+}
+
+.forth-section .how-it-work div:nth-child(1) {
+    height: 150px;
+}
+
+.forth-section .how-it-work div h6 {
+    font-weight: 500;
+}
+
+.forth-section .how-it-work div p {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid black; /*remove*/
+    width: 500px;
+}
+
