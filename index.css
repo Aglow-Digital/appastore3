@@ -364,14 +364,90 @@ section.forth-section {
     height: 150px;
 }
 
-.forth-section .how-it-work div h6 {
-    font-weight: 500;
+.forth-section .how-it-work div h5 {
+    margin-top: 6px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .forth-section .how-it-work div p {
     margin-top: 10px;
+    margin-left: -8px;
     padding: 10px;
-    border: 1px solid black; /*remove*/
+    /* border: 1px solid black; remove */
     width: 500px;
+    font-weight: 500;
 }
 
+/*footer*/
+
+.footer {
+    background-color: #8f4c1a;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer .footer-logo {
+    height: 60px;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.footer .footer-logo img {
+    width: 120px;
+}
+
+.footer .footer-logo p {
+    font-size: 11px;
+    font-weight: 600;
+    margin-left: 7px;
+    letter-spacing: 1px;
+}
+
+.footer-grid-container {
+    display: inline-block;
+    position: relative;
+    width: 90px;
+    top: -30px;
+    left: 240px;
+    display: grid;
+    margin: 0px;
+    column-gap: 20px;
+    grid-template-columns: 100px 130px 90px;    
+}
+
+.footer-grid-item {
+    padding: 0px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/*footer-address*/
+
+.Address {
+    position: relative;
+    width: 170px;
+    top: -190px;
+    left: 790px;
+}
+
+.Address p {
+    margin-top: 7px;
+}
+
+.Address div p {
+    margin-bottom: -2px;
+}
+
+/*footer install*/
+
+.install {
+    position: relative;
+    top: -310px;
+    left: 1140px;
+    width: 120px;
+}
+
+.install img {
+    width: 130px;
+}
